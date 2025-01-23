@@ -15,6 +15,9 @@ import (
 	"gorm.io/gorm"
 )
 
+// ТЕСТ ГИТА
+// ВТОРОЙ ТЕСТ
+
 // СТРУКТУРА ОПИСЫВАЮЩАЯ ФЛАГИ ПРИЛОЖЕНИЯ СЕКУНДОМЕРА
 type flags_app struct {
 	start_pressed bool
