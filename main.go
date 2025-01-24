@@ -99,7 +99,7 @@ func stopwatch() {
 // инициализация НАЧАЛЬНОГО СОСТОЯНИЯ секундомера
 func widgets_begin() {
 
-	input := canvas.NewText("00:00:00:000", color.White)
+	input := canvas.NewText("00:00:00:000", color.RGBA{155, 155, 155, 255})
 	input.TextSize = 35 // Увеличение размера шрифта
 
 	btn_str := widget.NewButton("       Start       ", nil)
